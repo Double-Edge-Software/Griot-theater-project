@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { render } from 'react-dom';
 import reportWebVitals from './reportWebVitals';
+import { Nav, Header } from './sections';
 
-ReactDOM.render(
+render(
   <React.StrictMode>
-    <App />
+    <Nav title = 'Griot Theater Company' />
+    <Header title = 'test'/>
   </React.StrictMode>,
   document.getElementById('root')
 );

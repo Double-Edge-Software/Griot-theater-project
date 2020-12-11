@@ -1,0 +1,39 @@
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.nav-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    position: absolute;
+}
+
+.menu-items{
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.menu-items li{
+    flex: 0 0 auto;
+    padding: 32px;
+    width: 70px;
+    overflow: hidden;
+    white-space: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-text{
+    color: white;
+    left: 3.5em;
+    position: relative;
+    align-self: center;
+}
