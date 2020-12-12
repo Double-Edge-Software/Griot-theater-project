@@ -1,0 +1,25 @@
+.welcome-container{
+    background-color: white;
+    background-image: url(https://res.cloudinary.com/drra3biar/image/upload/v1607726202/griot-theater-photos/shakespear-quote-background_tsv7ix.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35vh;
+    width: 100vw;
+}
+
+#welcome{
+    color: black;
+    text-align: center;
+    margin: 4vh 0;
+}
+
+#griot-text{
+    text-align: center;
+    word-wrap: break-word;
+    width: 37vw;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1.5em;
+    margin-top: 2vh;
+}

@@ -1,12 +1,14 @@
 import React from 'react';
 import { render } from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { Nav, Header } from './sections';
+import { Nav, Header, Welcome, Featured } from './sections';
 
 render(
   <React.StrictMode>
     <Nav title = 'Griot Theater Company' />
     <Header title = 'test'/>
+    <Welcome title = 'testing' />
+    <Featured title = 'testing again'/>
   </React.StrictMode>,
   document.getElementById('root')
 );

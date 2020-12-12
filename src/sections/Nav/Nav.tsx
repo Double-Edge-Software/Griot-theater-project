@@ -17,7 +17,7 @@ export const Nav = ( {title}:Props ) => {
             <ul className = "menu-items">
                 <li>Home</li>
                 <li>Features</li>
-                <li>The Collective</li>
+                <li>Collective</li>
                 <li>Mission</li>
                 <li>Contact</li>
             </ul>
